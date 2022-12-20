@@ -24,7 +24,7 @@
         <DockPanel Background="{StaticResource TitleBarGrayBrush}" Height="64" VerticalAlignment="Top"
                    LastChildFill="True">
             <ContentControl Margin="10" Content="" Height="45" IsTabStop="False" />
-            <TextBlock Name="ApplicationNameText" Text="clawPDF" HorizontalAlignment="Left"
+            <TextBlock Name="ApplicationNameText" Text="clawPDF_1" HorizontalAlignment="Left"
                        VerticalAlignment="Center" FontWeight="Bold" FontSize="24" Foreground="#FFFAFAFA"
                        FontFamily="Calibri"
                        x:FieldModifier="private" />
@@ -37,6 +37,7 @@
             <TextBlock Name="IntroductionStep1Text" Margin="20 3">1. Set up your profiles and settings here.</TextBlock>
             <TextBlock Name="IntroductionStep2Text" Margin="20 3">2. Print any document to the printer "clawPDF".</TextBlock>
             <TextBlock Name="IntroductionStep3Text" Margin="20 3">3. Save your PDF or send it as mail.</TextBlock>
+            <TextBlock Name="IntroductionStep4Text" Margin="20 3">4. Fehler bei Dateinamen behoben</TextBlock>
             <TextBlock Name="IntroductionGetHelpText" Margin="0 10 0 0">To get help, hit F1 or the question mark.</TextBlock>
         </StackPanel>
         <DockPanel VerticalAlignment="Bottom">
